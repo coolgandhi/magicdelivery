@@ -1,4 +1,10 @@
 Magicdelivery::Application.routes.draw do
+  get "route/new"
+
+  post "route/create"
+
+  get "route/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

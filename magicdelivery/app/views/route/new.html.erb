@@ -1,0 +1,10 @@
+<h1>Enter Addresses</h1>
+<%= form_for @route, :url => { :action => "create" } do |f| %>
+  <%= label_tag 'Enter Address' %>
+  <%= text_field_tag :address1 %>
+  <p>
+  <%= label_tag 'Enter Address' %>
+  <%= text_field_tag :address2 %>
+  <p>
+  <%= f.submit "Create" %>
+<% end %>
